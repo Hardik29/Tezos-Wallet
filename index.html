@@ -4,15 +4,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <title>Beacon Delegation Example</title>
-    <script
-      src="https://unpkg.com/@airgap/beacon-sdk@2.2.3/dist/walletbeacon.min.js"
-      integrity="sha384-12/A3/UyuGF7Hdkd8eaSXef8lEO7Jzz4FtJd4NpfZ2j/wlhPM2GWZPoxo8DkxwkI"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://unpkg.com/@airgap/beacon-sdk@2.3.1/dist/walletbeacon.min.js" integrity="sha384-34XDbCA9XAlPnz4BISsP3DiqbTMhp9My/CqRmip1lK/uHt92lAkRn0+6XGYSB2UM" crossorigin="anonymous"></script>
     <script src="index.js" defer></script>
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <button id="connect"><img src="./assest/beacon.png">Connect With Tezos Wallet</button>
-  </body>
+    <div><button id="connect" onclick="loadEdit()"><img src="./assest/beacon.png">Connect With Tezos Wallet</button></div>
+    <div> <button id="clear" onclick="load()"><img src="./assest/beacon.png">Clear With Tezos Wallet</button></div>
+   </body>
 </html>

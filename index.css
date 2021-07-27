@@ -1,12 +1,10 @@
-body{
+div{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 button{
-    width: 380px;
-    height: 70px;
-    margin-top: 10rem;
+    padding: 18px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -27,5 +25,11 @@ button{
 button img{
     width: 25px;
     height: 25px;
-    padding: 10px;
+    padding-right: 10px;
+}
+#clear{
+    margin-top: 5rem;
+}
+#connect{
+    margin-top: 10rem;
 }
